@@ -3,8 +3,8 @@
 session_start();
 
 $trello = new tschwemley\trello\Trello(array(
-	'clientKey'		 => $_SESSION['oauth_token'],
-	'clientSecret'	 => $_SESSION['oauth_token_secret'],
+	'clientKey'      => $_SESSION['oauth_token'],
+	'clientSecret'   => $_SESSION['oauth_token_secret'],
 ));
 
 // Get the oauthVerifier that was sent back from Trello after access was granted.
@@ -19,8 +19,8 @@ $_SESSION['oauth_token_secret'] = $token['oauth_token_secret'];
 
 // Create a new instance of the Trello Object with the new request Tokens
 $trello = new tschwemley\trello\Trello(array(
-	'clientKey'		 => $_SESSION['oauth_token'],
-	'clientSecret'	 => $_SESSION['oauth_token_secret'],
+	'clientKey'      => $_SESSION['oauth_token'],
+	'clientSecret'   => $_SESSION['oauth_token_secret'],
 ));
 
 // Make an api call (using Trello API dev board as example)

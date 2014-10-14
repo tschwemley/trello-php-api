@@ -3,8 +3,8 @@ session_start();
 
 // Create a new instance of the Trello class
 $trello = new tschwemley\trello\Trello(array(
-	'clientKey'		 => null,
-	'clientSecret'	 => null,
+	'clientKey'      => null,
+	'clientSecret'   => null,
 ));
 
 // Get the request tokens based on consumer and secret keys. Store them in token array.
@@ -16,9 +16,9 @@ $_SESSION['oauth_token_secret'] = $token['oauth_token_secret'];
 
 // Get the authorize URL
 $data = $trello->getAuthorizeUrl($token['oauth_token'], array(
-	'name'		 => 'medhub',
+	'name'       => 'medhub',
 	'expiration' => 'never',
-	'scope'		 => 'read,write',
+	'scope'      => 'read,write',
 ));
 
 // Direct user to Trello 'Allow Access' screen

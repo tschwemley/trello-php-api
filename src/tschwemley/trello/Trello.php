@@ -67,7 +67,7 @@ class Trello extends BaseAbstract
             $url .= "/$call";
         }
 
-        // Add any additionaly arguments
+        // Add any additional arguments
         if (!empty($arguments)) {
             $url .= '?';
 
