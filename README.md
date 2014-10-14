@@ -9,6 +9,24 @@ A PHP wrapper for working with the Trello API.
 - Trello API developer key (can be registered at https://trello.com/1/appKey/generate)
 - OAuth for php (included in this repo)
 
+## Installation ##
+This package can be installed as a stand alone or with composer.
+
+If using Composer add the following to your project composer.json:
+
+```json
+"require": {
+	...
+	"tschwemley/trello-php-api": "dev-master"
+}
+```
+
+Finally, update Composer:
+
+```
+composer update
+```
+
 ## Usage ##
 After obtaining an authentican token you may make authenticated calls by using the following method:
 
