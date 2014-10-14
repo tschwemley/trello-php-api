@@ -25,4 +25,3 @@ $trello = new tschwemley\trello\Trello(array(
 
 // Make an api call (using Trello API dev board as example)
 $cards = $trello->apiCall(array('boards', '4d5ea62fd76aa1136000000c'));
-print_r($cards);
