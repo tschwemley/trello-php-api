@@ -1,5 +1,5 @@
 {
-	"name": "tschwemley/trello-php-API",
+	"name": "tschwemley/trello-php-api",
 	"description": "A php wrapper for working with the Trello API",
 	"authors": [
 		{
