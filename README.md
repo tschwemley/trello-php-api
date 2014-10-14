@@ -16,9 +16,9 @@ After obtaining an authentican token you may make authenticated calls by using t
 $trello = new tschwemley\trello\Trell(array(
   'clientKey'    => CLIENT_KEY_HERE
   'clientSecret' => CLIENT_SECRET_HERE
-  
-$result = $trello->apiCall(array('boards', '4d5ea62fd76aa1136000000c'));
 );
+
+$result = $trello->apiCall(array('boards', '4d5ea62fd76aa1136000000c'));
 ```
 
 For more detailed examples about obtaining OAuth verification please check the OAuth examples under the test folder.
