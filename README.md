@@ -39,7 +39,7 @@ $trello = new tschwemley\trello\Trell(array(
 $result = $trello->apiCall(array('boards', '4d5ea62fd76aa1136000000c'));
 ```
 
-For more detailed examples about obtaining OAuth verification please check the OAuth examples under the test folder.
+For more detailed examples about obtaining OAuth verification please check the OAuth examples under the examples folder.
 
 ## Getting Help ##
 If you need help please contact me at me@tylerschwemley.com
