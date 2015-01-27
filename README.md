@@ -31,7 +31,7 @@ composer update
 After obtaining an authentican token you may make authenticated calls by using the following method:
 
 ```php
-$trello = new tschwemley\trello\Trell(array(
+$trello = new tschwemley\trello\Trell0(array(
   'clientKey'    => CLIENT_KEY_HERE
   'clientSecret' => CLIENT_SECRET_HERE
 );
